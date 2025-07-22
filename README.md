@@ -40,7 +40,7 @@ pip install customtkinter
 ### Spinner
 
 ```python
-from yourmodule import Spinner
+from dixttk import Spinner
 import tkinter as tk
 
 root = tk.Tk()
@@ -53,7 +53,7 @@ root.mainloop()
 ### CustomButton
 
 ```python
-from yourmodule import CustomButton
+from dixttk import CustomButton
 import tkinter as tk
 
 root = tk.Tk()
@@ -65,7 +65,7 @@ root.mainloop()
 ### ButtonFactory
 
 ```python
-from yourmodule import ButtonFactory
+from dixttk import ButtonFactory
 import tkinter as tk
 
 root = tk.Tk()
