@@ -1,0 +1,93 @@
+{
+  "FORMATS": {
+    "default": {
+      "corner_radius": 10,
+      "compound": "left",
+      "fg_color": ["#4CAF50", "#2E7D32"],
+      "hover_color": ["#45A049", "#1B5E20"],
+      "border_width": 0,
+      "border_color": null
+    },
+    "rounded": {
+      "corner_radius": 20,
+      "compound": "left",
+      "fg_color": ["#4CAF50", "#2E7D32"],
+      "hover_color": ["#45A049", "#1B5E20"],
+      "border_width": 0,
+      "border_color": null
+    },
+    "squared": {
+      "corner_radius": 0,
+      "compound": "left",
+      "fg_color": ["#4CAF50", "#2E7D32"],
+      "hover_color": ["#45A049", "#1B5E20"],
+      "border_width": 0,
+      "border_color": null
+    },
+    "circle": {
+      "compound": "center",
+      "fg_color": ["#4CAF50", "#2E7D32"],
+      "hover_color": ["#45A049", "#1B5E20"],
+      "border_width": 0,
+      "border_color": null
+    }
+  },
+  "SIZES": {
+    "small": {
+      "width": 70,
+      "height": 30,
+      "font": {
+        "size": 12,
+        "weight": "normal"
+      },
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#A9A9A9", "#5A5A5A"]
+    },
+    "default": {
+      "width": 120,
+      "height": 40,
+      "font": {
+        "size": 14,
+        "weight": "bold"
+      },
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#A9A9A9", "#5A5A5A"]
+    },
+    "big": {
+      "width": 150,
+      "height": 50,
+      "font": {
+        "size": 16,
+        "weight": "bold"
+      },
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#A9A9A9", "#5A5A5A"]
+    }
+  },
+  "PRESETS": {
+    "primary": {
+      "fg_color": ["#007BFF", "#0056b3"],
+      "hover_color": ["#0056b3", "#004494"],
+      "border_color": "#004494",
+      "border_width": 1,
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#B0B0B0", "#707070"]
+    },
+    "success": {
+      "fg_color": ["#28a745", "#1e7e34"],
+      "hover_color": ["#1e7e34", "#155d27"],
+      "border_color": "#155d27",
+      "border_width": 1,
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#B0B0B0", "#707070"]
+    },
+    "danger": {
+      "fg_color": ["#dc3545", "#a71d2a"],
+      "hover_color": ["#a71d2a", "#6f121d"],
+      "border_color": "#6f121d",
+      "border_width": 1,
+      "text_color": ["white", "white"],
+      "text_color_disabled": ["#B0B0B0", "#707070"]
+    }
+  }
+}
